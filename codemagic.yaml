@@ -1,4 +1,5 @@
-android-apk:
+workflows:
+  android-apk:
     name: Android APK Build
     environment:
       android_gradle: latest
