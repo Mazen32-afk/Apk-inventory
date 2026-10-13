@@ -2,7 +2,6 @@ workflows:
   android-apk:
     name: Android APK Build
     environment:
-      android_gradle: latest
       java: 17
     scripts:
       - name: Install dependencies
